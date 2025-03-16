@@ -726,27 +726,16 @@ body._lock {
 }
 
 .menu__wrapper {
-  background: #FBCC8B;
+  background: #FBCC8B url("../img/header/image.webp") bottom right/35% no-repeat;
   border-radius: 32px;
   overflow-y: auto;
   scrollbar-width: none;
-  position: relative;
   padding-bottom: 32px;
   margin-top: 10px;
 }
 
 .menu__wrapper .header__socials {
   margin-right: 0;
-}
-
-.menu__wrapper::after {
-  content: "";
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 40%;
-  aspect-ratio: 620/380;
-  background: url("../img/header/image.webp") bottom right/contain no-repeat;
 }
 
 .menu__wrapper::-webkit-scrollbar {
@@ -2610,6 +2599,10 @@ body._lock {
 
   .header__btn {
     display: none;
+  }
+
+  .menu__wrapper {
+    background: #FBCC8B;
   }
 
   .menu__lang {
