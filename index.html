@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.min.css?_v=20250316143520" />
+    <link rel="stylesheet" href="css/style.min.css?_v=20250318114947" />
     <link rel="icon" type="image/ico" href="img/favicon.ico">
     <title>Snaily</title>
 </head>
@@ -169,10 +169,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="about__container container">
-                    <h2 class="about__title animate">WHAT IS THIS ABOUT?</h2>
+                <div class="about__container container animate">
+                    <h2 class="about__title">WHAT IS THIS ABOUT?</h2>
                     <div class="about__body">
-                        <div class="about__block animate">
+                        <div class="about__block">
                             <div class="about__text">
                                 NOTHING IS IMPOSSIBLE WITH SNAILY
                             </div>
@@ -184,7 +184,7 @@
                                 </picture>
                             </div>
                         </div>
-                        <div class="about__block animate">
+                        <div class="about__block">
                             <div class="about__text">
                                 <p>
                                     In the vibrant and ever-evolving
@@ -223,7 +223,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="about__block animate">
+                        <div class="about__block">
                             <div class="about__text">
                                 A group of visionary developers and meme enthusiasts
                             </div>
@@ -236,7 +236,7 @@
                             </div>
                         </div>
                     </div>
-                    <a href="#" class="about__btn btn animate">Buy</a>
+                    <a href="#" class="about__btn btn">Buy</a>
                 </div>
             </section>
 
@@ -381,41 +381,74 @@
                             </picture>
                         </div>
                     </div>
-                    <ul class="roadmap__list">
-                        <li class="roadmap__item roadmap__item_checked animate">
-                            <h3><span style="color:#FF8717;">STAGE 1:</span></h3>
-                            <p>“CONCEPTUALIZATION”</p>
-                            <ul>
-                                <li>Research</li>
-                                <li>Team Bulding</li>
-                                <li>Whitepaper</li>
-                                <li>Compliance</li>
-                                <li>Community</li>
-                            </ul>
-                        </li>
-                        <li class="roadmap__item roadmap__item_checked animate">
-                            <h3><span style="color:#79CC9E;">STAGE 2:</span></h3>
-                            <p>"DEVELOPMENT"</p>
-                            <ul>
-                                <li>Blockchain</li>
-                                <li>Wallets</li>
-                                <li>Website</li>
-                                <li>Testing</li>
-                                <li>Listings</li>
-                            </ul>
-                        </li>
-                        <li class="roadmap__item animate">
-                            <h3><span style="color:#5A0CE1;">STAGE 3:</span></h3>
-                            <p>"LAUNCH"</p>
-                            <ul>
-                                <li>Token Sale</li>
-                                <li>Marketing</li>
-                                <li>Use Cases</li>
-                                <li>Education</li>
-                                <li>Feedback</li>
-                            </ul>
-                        </li>
-                    </ul>
+                    <div class="roadmap__navigation navigation">
+                        <button type="button" class="navigation__prev" title="Previous">
+                            <svg>
+                                <use href="img/icons/icons.svg#nav"></use>
+                            </svg>
+                        </button>
+                        <button type="button" class="navigation__next" title="Next">
+                            <svg>
+                                <use href="img/icons/icons.svg#nav"></use>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="roadmap__slider">
+                        <div class="roadmap__wrapper swiper-wrapper">
+                            <div class="roadmap__slide swiper-slide">
+                                <div class="roadmap__item roadmap__item_checked roadmap__item_green animate">
+                                    <h3>STAGE 1:</h3>
+                                    <p>“CONCEPTUALIZATION”</p>
+                                    <ul>
+                                        <li>Research</li>
+                                        <li>Team Bulding</li>
+                                        <li>Whitepaper</li>
+                                        <li>Compliance</li>
+                                        <li>Community</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="roadmap__slide swiper-slide">
+                                <div class="roadmap__item roadmap__item_checked roadmap__item_red animate">
+                                    <h3>STAGE 2:</h3>
+                                    <p>"DEVELOPMENT"</p>
+                                    <ul>
+                                        <li>Blockchain</li>
+                                        <li>Wallets</li>
+                                        <li>Website</li>
+                                        <li>Testing</li>
+                                        <li>Listings</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="roadmap__slide swiper-slide">
+                                <div class="roadmap__item roadmap__item_orange animate">
+                                    <h3>STAGE 3:</h3>
+                                    <p>"LAUNCH"</p>
+                                    <ul>
+                                        <li>Token Sale</li>
+                                        <li>Marketing</li>
+                                        <li>Use Cases</li>
+                                        <li>Education</li>
+                                        <li>Feedback</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="roadmap__slide swiper-slide">
+                                <div class="roadmap__item roadmap__item_orange animate">
+                                    <h3>STAGE 3:</h3>
+                                    <p>"LAUNCH"</p>
+                                    <ul>
+                                        <li>Token Sale</li>
+                                        <li>Marketing</li>
+                                        <li>Use Cases</li>
+                                        <li>Education</li>
+                                        <li>Feedback</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
 
@@ -669,11 +702,11 @@
 
         </div>
 
-        <footer class="footer animate">
+        <footer class="footer">
     <div class="footer__container container">
         <div class="footer__body">
-            <h2 class="footer__title">SNAILY COIN</h2>
-            <div class="footer__menu menu-footer">
+            <h2 class="footer__title animate">SNAILY COIN</h2>
+            <div class="footer__menu menu-footer animate">
                 <nav class="menu-footer__body">
                     <ul class="menu-footer__list">
                         <li class="menu-footer__item">
@@ -697,11 +730,11 @@
                     </ul>
                 </nav>
             </div>
-            <a href="#" class="footer__btn btn">Buy Snaily</a>
-            <a href="#" class="footer__link">
+            <a href="#" class="footer__btn btn animate">Buy Snaily</a>
+            <a href="#" class="footer__link animate">
                 → Cryptocurrency Trading Risk Policy
             </a>
-            <div class="footer__bottom">
+            <div class="footer__bottom animate">
                 <p class="footer__rights">SNAILY, 2025</p>
                 <div class="footer__image lazy">
                     <picture>
@@ -716,7 +749,7 @@
 </footer>
     </div>
 
-    <script src="js/app.min.js?_v=20250316143520"></script>
+    <script src="js/app.min.js?_v=20250318114947"></script>
 </body>
 
 </html>
